@@ -10,7 +10,7 @@ apt install unzip -y
 echo "atualizando o servidor..."
 
 cd /tmp
-wget https://github.com/denilsonbonatti/linux-site-dio/archive/refs/heads/main.zip
+wget ${SERVER_PATH}/main.zip
 unzip main.zip
-cd linux-site-dio-main
+cd linux-site-main
 cp -R * /var/www/html/
