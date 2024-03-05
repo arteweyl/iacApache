@@ -1,5 +1,5 @@
 #!/bin/bash
-
+SERVER_PATH=mock/path
 echo "atualizando o servidor..."
 
 apt update
